@@ -18,7 +18,7 @@ function App() {
 
 
   useEffect(() => {
-    searchMovies('Superman');
+    searchMovies('Hulk');
   }, []);
 
   return (
@@ -28,7 +28,7 @@ function App() {
       <div className="search">
         <input 
           placeholder="Search Movies Here"
-          value="Superman"
+          value="Hulk"
           onChange={() => {}}
         />
         <img 
